@@ -6,6 +6,7 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import os
 
+
 DATABASE = os.getenv("DATABASE")
 POSTGRES_USER = os.getenv("POSTGRES_USER")
 POSTGRES_PASS = os.getenv("POSTGRES_PASS")
